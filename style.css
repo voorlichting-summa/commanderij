@@ -9,7 +9,9 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
+  /* commaderij color */
+  background-color: rgb(108 50 137);
 }
 
 .topnav a {
@@ -65,18 +67,53 @@ body {
   width: 50px;
 }
 
+.image{
+  margin: 5px;
+  float: right;
+  width: 150px;
+}
+
+#page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+
 /* main content */
 main{
   margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5%;
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+article{
+  display:block;
+  margin-top: 5%;
+  margin-bottom: 75px;
+  padding-bottom: 4rem;
 }
 
 /* footer */
+/* footer {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #007fc9;
+  color: white;
+  text-align: center;
+} */
 footer{
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-inline-end: 5%;
+  text-align: center;
+  /* height: 2.5rem; */
+  background-color: #007fc9;
+  color: white;
 }
